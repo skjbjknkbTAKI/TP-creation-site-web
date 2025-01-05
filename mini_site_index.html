@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: #0f0f0f;
+            color: #0ff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: linear-gradient(90deg, #050505, #333);
+            color: #00ff00;
+            padding: 15px 30px;
+            text-align: center;
+            box-shadow: 0px 4px 10px rgba(0, 255, 0, 0.5);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+            text-shadow: 2px 2px 8px rgba(0, 255, 0, 0.8);
+        }
+
+        nav a {
+            color: #00ff00;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-bottom: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            border-bottom: 2px solid #00ff00;
+        }
+
+        main {
+            padding: 40px;
+            text-align: justify;
+            background: rgba(0, 0, 0, 0.8);
+            box-shadow: 0px 4px 10px rgba(0, 255, 255, 0.5);
+            border-radius: 10px;
+            margin: 20px;
+        }
+
+        footer {
+            background: #050505;
+            color: #0ff;
+            text-align: center;
+            padding: 15px 0;
+            border-top: 1px solid #0ff;
+            font-size: 0.9em;
+            box-shadow: 0px -4px 10px rgba(0, 255, 255, 0.5);
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table, th, td {
+            border: 1px solid #0ff;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur mon mini-site</h1>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="about.html">À propos</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Présentation</h2>
+        <p>Bienvenue sur la page d'accueil. Ce site est un exemple de mini-site Web.</p>
+        <h3>Image thématique</h3>
+        <img src="https://via.placeholder.com/600x300" alt="Image thématique">
+
+        <h3>Liste ordonnée</h3>
+        <ol>
+            <li>Créer un site</li>
+            <li>Ajouter des fonctionnalités</li>
+            <li>Publier en ligne</li>
+        </ol>
+
+        <h3>Liste non ordonnée</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+
+        <h3>Tableau</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Technologie</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Langage de balisage</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Langage de style</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Langage de programmation</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Vidéo</h3>
+        <video controls width="100%">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas les vidéos HTML5.
+        </video>
+
+        <h3>Liens</h3>
+        <p>Visitez <a href="https://www.w3schools.com" target="_blank">W3Schools</a> pour en savoir plus sur le développement Web.</p>
+        <p>Cliquez sur l'image ci-dessous pour visiter GitHub :</p>
+        <a href="https://github.com" target="_blank">
+            <img src="https://via.placeholder.com/150" alt="GitHub">
+        </a>
+
+        <h3>Source</h3>
+        <p>Contenu inspiré de <a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a>.</p>
+    </main>
+    <footer>
+        <p>&copy; 2025 Mon Mini-Site</p>
+    </footer>
+</body>
+</html>
